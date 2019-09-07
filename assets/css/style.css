@@ -1,0 +1,45 @@
+body{
+    background:blue;
+}
+#mainGame{
+    height:80vh;
+    width:75vw;
+    background:white;
+    margin:10vh auto;
+    text-align:center;
+}
+#mainTitle{
+    color:rgb(36, 36, 255);
+    font-size:80px;
+    font-family:'Modak', cursive;
+    padding: 75px 0;
+}
+button{
+    width:30vw;
+    height:15vh;
+    background:rgb(255, 183, 28);
+    border:solid blue 5px;
+    font-family:Acme, sans-serif;
+    font-size:25px;
+    color:rgb(0, 34, 97);
+    margin:auto;
+    padding:auto;
+}
+button:hover{
+    color:orange;
+    border: solid orange 5px;
+    background:blue;
+}
+#timer{
+    position:fixed;
+    right:0;
+    top:0;
+    background:white;
+    color:red;
+    height:100px;
+    width:100px;
+    border:solid blue 15px;
+    text-align:center;
+    font-size:50px;
+    padding:40px;
+}
