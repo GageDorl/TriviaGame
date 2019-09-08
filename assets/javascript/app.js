@@ -67,8 +67,9 @@ function resultOfQuestion(val){
     setTimeout(startQuestion, 5000);
     }
     else {
+        setTimeout(function(){
         $('#mainTitle').text('That\'s it');
-        $('#gameButtons').html('Correct answers: '+correct+'<br>Wrong answers: '+wrong+'<br>Unanswered questions: '+outoftime+'<br><button id=restart onclick=restartIt()>Click to go Again</button>')
+        $('#gameButtons').html('Correct answers: '+correct+'<br>Wrong answers: '+wrong+'<br>Unanswered questions: '+outoftime+'<br><button id=restart onclick=restartIt()>Click to go Again</button>')},5000)
     }
 }
 function startQuestion(){
