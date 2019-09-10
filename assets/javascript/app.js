@@ -84,11 +84,11 @@ function startQuestion(){
             $('#gameButtons').append(button.text(questions[questionNum][property]));
         }
         else if(property!='ff'&&property!='q'){
-            var button = $('<button>').attr('id','a');
+            var button = $('<button>').attr('class','a');
             $('#gameButtons').append(button.text(questions[questionNum][property]));
         }
     }
-    $('#a').on('click',function(){resultOfQuestion('wrong')});
+    $('.a').on('click',function(){resultOfQuestion('wrong')});
     $('#ca').on('click',function(){resultOfQuestion('right')});
     timedInt = setInterval(function(){
         x--; 
